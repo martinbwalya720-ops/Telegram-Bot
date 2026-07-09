@@ -145,4 +145,4 @@ app.add_handler(CallbackQueryHandler(button))
 
 print("🚀 Atlas AI Trader PRO is online...")
 
-app.run_polling() 
+app.run_polling(drop_pending_updates=True)
