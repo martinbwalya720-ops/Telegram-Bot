@@ -1,3 +1,5 @@
+import os
+import random 
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
     ApplicationBuilder,
@@ -5,9 +7,8 @@ from telegram.ext import (
     CallbackQueryHandler,
     ContextTypes,
 )
-import os
 
-BOT_TOKEN =os.getenv"8875740238:AAHwZYaS2NpY606Bgr0aPOOEjSXbQNSskI4" 
+BOT_TOKEN =os.getenv("BOT_TOKEN") 
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
