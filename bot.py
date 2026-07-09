@@ -5,8 +5,8 @@ from telegram.ext import (
     CallbackQueryHandler,
     ContextTypes,
 )
-import random
-Import os
+import os
+
 BOT_TOKEN =os.getenv"8875740238:AAHwZYaS2NpY606Bgr0aPOOEjSXbQNSskI4" 
 
 
